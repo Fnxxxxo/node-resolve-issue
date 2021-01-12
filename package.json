@@ -1,0 +1,17 @@
+{
+  "name": "node-resolve-issue",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=10.22.0"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": []
+  },
+  "dependencies": {
+    "lerna": "^3.22.1"
+  }
+}
